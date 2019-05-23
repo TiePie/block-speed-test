@@ -16,4 +16,4 @@ Commandline utility for testing block measurement performance
 - `-e` - Trigger on EXT1 instead of using no trigger.
 
 ## Example
-- `./blockspeedtest -b 14 -c 1 -f 100e6 -n 1000 -r` - Performs 1000 block measurements without trigger, measuring 5000 samples at 100 MHz @ 14 bit, raw data is passed this test application.
+- `./blockspeedtest -b 14 -c 1 -f 100e6 -n 1000 -r` - Performs 1000 block measurements without trigger on channel 1, measuring 5000 samples at 100 MHz @ 14 bit, passing raw data.
